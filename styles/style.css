@@ -1,0 +1,45 @@
+#colors{
+    display:flex;
+    justify-content: center;
+
+}
+#input {
+    display:flex;
+    flex-direction: column;
+}
+#positioning{
+    display:flex;
+    justify-content: center;
+}
+#mood{
+    display:flex;
+    justify-content: center;
+}
+#color1{
+    width:100px;
+    height: 100px;
+}
+#color2{
+    width:100px;
+    height: 100px;
+}
+#color3{
+    width:100px;
+    height: 100px;
+}
+#color4{
+    width:100px;
+    height: 100px;
+}
+#color5{
+    width:100px;
+    height: 100px;
+}
+.center {
+    padding-top:10%;
+    display:flex;
+    justify-content: baseline;
+    flex-direction: column;
+
+
+}

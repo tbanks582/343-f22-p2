@@ -4,28 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/scripts.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
     <title>Document</title>
 </head>
 <body>
-    <ul>
-        <li><p>might not follow through on ben's project for this cuz time</p></li>
-        <li><p>I want to make a project that takes a location and tells you how you're going to die probably based on data from the csv
-                I got that im going to use a python script to compile to make proportional likelihood cause of death by state.
-            </p>
-            <ul>
-                <li>make python script to compress data into maybe top 25 causes</li>
-                <li>this actually wont satisfy cuz im just reading data from data.gov rather than using their api but id be crazy to run 
-                    the pythons script locally every time after getting updated data</li>
-                <li>i do want to us https://docs.lexigram.io/ api</li>
-                <li>maybe get facts about classification from https://uselessfacts.jsph.pl/ but that sounds lame</li>
-                <li>http://colormind.io/api-access/</li>
-                <li>daily symptoms -> images related to diagnosis</li>
-                <li>infermedical -> google images</li>
-            </ul>
-        </li>
+    <div class="center">
+        <div id="positioning">
+        <div id="input">
+            <p>what 3 symptoms do you have today?
 
+            <form action="#" onsubmit="event.preventDefault()">
+                <input type="text" name="repo-query" id="query1"onkeydown="getSearch()" autofocus>
+            </form>
+            <form action="#" onsubmit="event.preventDefault()">
+                <input type="text" name="repo-query" id="query2"onkeydown="getSearch()" >
+            </form>
+            <form action="#" onsubmit="event.preventDefault()">
+                <input type="text" name="repo-query" id="query3"onkeydown="getSearch()" >
+            </form>
+            <!--<button id="activate" onclick="getDefault()">dont click me</button>-->
+            </p>
+        </div>
+    </div>
+        <div id="colors">
+            <div id="color1">color1</div>
+            <div id="color2">color2</div>
+            <div id="color3">color3</div>
+            <div id="color4">color4</div>
+            <div id="color5">color5</div>
+        </div>
+    </div>
+    <div id="mood">
         
-        
-    </ul>
+    </div>
+    
+
+
 </body>
 </html>

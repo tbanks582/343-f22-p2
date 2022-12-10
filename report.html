@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+</head>
+<body>
+    <ul>
+        <li>
+            https://tbanks582.github.io/343-f22-p2/
+        </li>
+    </ul>
+    <ol>
+        <li>
+            <p>what app does</p>
+            <ol>
+                <li>
+                    my application helps sick people decide what kind of clothes to wear. using colormind.io's color pallette generator which is 
+                    fed data from Infermedica's natural language parsing and diagnosis endpoints to get a handful of colors to choose from when
+                    deciding what to wear.
+                </li>
+                <li>
+                    besides the trivial implementation of infermedica's diagnosis endpoint which could otherwise be legitimately important,
+                    this service is of no real use to anyone, which has informed my design theory and choices.
+                </li>
+                <li>
+                    please don't ask how the data from my diagnostic tool relates the colors i choose to sample from.
+                </li>
+            </ol>
+        </li>
+        <li>
+            <p> how i fulfill project requirements</p>
+            <ol>
+                <li>
+                    site is deployed on github.
+                </li>
+                <li>
+                    media query puts the color squares into 2x2 + 1 grid instead of 1x5 row to make space on a smaller screen.
+                </li>
+                <li>
+                    I am using 2 endpoints of the Infermedica api along with colormind.io's suggestion-based color pallette generator.
+                </li>
+                <li>
+                    the search feature is primary function of the application - searching Infermedica's database of
+                    symptoms with 3 statements of illness gives you some limited diagnosis and generates a color pattern.
+                </li>
+                <li>
+                    this project was mostly stupid and didnt generate enough data to warrant filtering results in any meaningful or useful way,
+                    unfortunately. I imagine I could easily allow some sort of filtration of data cached by successive calls to the api, but I still 
+                    don't know if that would yield anything meaningful.
+                </li>
+            </ol>
+        </li>
+    </ol>
+</body>
+</html>

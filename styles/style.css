@@ -3,6 +3,11 @@
     justify-content: center;
 
 }
+body { 
+    /* no ragrets */
+    background-image:url("Mucus\(Mucinex\).webp");
+    color:orange;
+}
 #input {
     display:flex;
     flex-direction: column;
@@ -35,10 +40,34 @@
     width:100px;
     height: 100px;
 }
+.color{
+    border:2px solid black;
+}
+@media screen and (max-width: 500px){
+    #colors{
+        flex-wrap:wrap;
+    }
+    #color1{
+        flex-basis:35%;
+    }
+    #color2{
+        flex-basis:35%;
+    }
+    #color3{
+        flex-basis:35%;
+    }
+    #color4{
+        flex-basis:35%;
+    }
+    #color5{
+        flex-basis:35%;
+    }
+}
+
+
 .center {
-    padding-top:10%;
     display:flex;
-    justify-content: baseline;
+    align-items: center;
     flex-direction: column;
 
 
